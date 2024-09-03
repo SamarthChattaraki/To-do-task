@@ -1,0 +1,48 @@
+/* src/styles.css */
+.task-item {
+  border: 3px solid hsl(122, 80%, 41%);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  width: 65%;
+}
+
+.task-item.completed {
+  background-color:none;
+ 
+  
+}
+
+
+
+.task-form input{
+  display: inline;
+  width: 55%;
+    
+    margin: 10px 0;
+    border: 3px solid hsl(122, 80%, 41%);
+
+}
+.task-form textarea {
+  display: inline;
+  width: 55%;
+
+  margin: 10px 0;
+  border: 3px solid hsl(122, 80%, 41%);
+}
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  display: block;
+}
+
+
+
+body{
+  
+  background-image: url("background-texture-2110720_960_720.jpg");
+  background-repeat: repeat;
+  
+}
